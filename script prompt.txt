@@ -1,0 +1,73 @@
+现在我做好了ppt，我会给你描述每一页的内容，你帮我生成一个对应的英文script的初稿，保存到一个docx文件里。具体要求是：需要使用在presentation时会用的词语，时长在10分钟以内，一定要在10分钟以内，不要用很多晦涩难懂的用词。其中，Slide8-16是重点，需要花更多的时间进行讲解
+
+Slide1：标题Analysis of NVIDIA GPU Market Dynamics and Cryptocurrency Correlations，副标题：2020/09 – 2022/09: A Full-Cycle Study from Mining Boom to Market Crash，presenter YAN Weibo。
+
+Slide2：Background，文字为The Mining Boom and Crash：From late 2020 to mid-2022, the cryptocurrency market experienced a dramatic cycle. Ethereum surged from ~$400 to ~$4,800, triggering unprecedented GPU mining demand. Bulk GPU buying caused global shortages, with eBay prices reaching 2-3× MSRP.。然后右边是一个时间流程图，分别是May 2021: NVIDIA introduced LHR technology --> Mid-2022: Crypto crash, ETH fell to ~$1,300 --> Result: GPU secondary market prices collapsed。
+
+Slide3：Research question：Do cryptocurrency price movements drive GPU secondary-market prices? Which GPU hardware attributes (VRAM, hash rate, LHR) explain the magnitude of price premiums over MSRP?Do different GPU tiers (XX60 entry-level to XX90 flagship) exhibit different price volatility?Did LHR technology actually reduce miners' willingness to pay? How persistent was the effect?。
+
+Slide4：Research Challenges：Multicollinearity: High-VRAM cards also have higher MSRP and higher hash rates. The variables are highly entangled. Frequency mismatch: Cryptocurrency data is daily; GPU eBay data is monthly. They must be aligned.。
+
+Slide5：Data Source：这一页我会依次介绍Cryptocurrency Prices的数据来源是CoinGecko API，GPU Specifications的数据来源是NVIDIA Official specs，GPU ebay pricing 的数据来源是AI-Driven Text ming from multiply sources(listed below），然后我会放出一个表格，里面是三个sources（Tom's hardware, pcmag, 3dcenter），method分别是"Bi-weekly ""eBay Historical GPU Prices"" series. Tracked 60+ GPUs. Filtered for genuine sold listings only — excluded ""box only,"" ""photo,"" non-working cards, and bundles"; Used eBay's official Terapeak sold-item data tool for Jan/Feb 2021 analysis. Cross-referenced with Tom's Hardware和GPU price index tracking eBay markups vs MSRP over time。
+
+Slide6：Tools and software used: Python3.9+ for pandas (data processing), numpy, statsmodels (OLS regression), scipy (statistical tests), matplotlib + seaborn (visualization), R4.2+for dplyr, ggplot2, broom (regression output), corrplot (heatmap), showtext (typography), Claude Code powered by deepseek v4 promax for Writing web scraping scripts for complex text mining tasks like GPU prices.
+
+Slide7: 展示了final dataset，有两张csv数据的截图，文字是10 GPU models (7 non-LHR + 3 LHR), 24 months (2020/09 – 2022/09)，All 190+ data points from real published source
+
+Slide8: Figure 1 – Time Series Overview: ETH Price vs GPU Secondary Market Prices (2020-2022), 下方是figure1的原图，key observation是GPU secondary-market prices and ETH price are visually highly synchronized — they rise and fall together, across all tiers from XX60 to XX90.
+
+Slide9：标题：How strong is the link？下方是figure2原图，需要对左右两幅图像怎么理解做出解释。得出的结论是Quite Strong, with RTX 3090 r = 0.56, p < 0.01!
+
+Slide10: 标题：Premium drivers of pricing。我会先展示出“VRAM？”的字样，并附上所有30系显卡的显存大小的表格，然后再展示M1的图表，粗略解释图像怎么得来的，然后结论：Surprisingly，More VRAM = Lower Premium？？接着会有一个反转，Tricked by MSRP的字样会显示在屏幕正中（粗略解释一下MSRP是什么意思）
+
+Slide11： 标题：Premium drivers of pricing。副标题：Factor MSRP into the analysis。然后展示M2的图表，粗略解释图像怎么得来，尤其是坐标轴的变化代表着什么，左右图像分别是什么含义，结论：MSRP is a confounding variable！ Actually More VRAM = More Premium
+
+Slide12： 标题：Premium drivers of pricing。副标题：Moreover, add Tier into consideration? 然后展示m3图表的右半边（我删去了左边，因为左边太晦涩难懂，右边的图表就能直接说明问题），并附上一个表格：Tier	Average Premium	Interpretation
+XX60	107%	"Entry-level cards, low MSRP → massive % headroom"
+XX70	~70%	Mid-range
+XX80	~60%	"High-end, higher MSRP → smaller % gap"
+XX90	52%	"Flagship, MSRP already $1,499 → limited upside"
+得出结论：XX60 actually have the Highest Premium ! 然后跳出一个字幕：Yeah, but why? 
+
+Slide13: 标题：Mining Economics: Cost Per Hashrate。副标题：$/MH/s Analysis Across GPU Models。这里需要稍微解释一句这个标题副标题是什么意思。然后展示figure6的左半部分（因为这时还没有将lhr纳入考虑范围），得出结论XX60 has the Lowest cost of 1 MH/s Mining Power Over Time，一个黄色箭头，得出第二个结论Miners targeted the most cost-efficient cards, not the most powerful ones
+
+Slide14：标题：LHR（Low Hash Rate)。这页slide是想要介绍nvidia为了应对狂潮而推出lhr版本的背景。ppt中间是nvidia当时新闻稿的截图，内容是"A further step to getting geforce cards into the hands of gamers. were reducing the hash rate of newly manufactured geforce RTX3080, 3070 and 3060Ti graphic cards so they're less desirable to miners"，图片下面有一行字：How does it affect the situation。接着引出后面将lhr加入对比
+
+Slide15：标题：LHR Real impact。副标题：$/MH/s Analysis Across GPU Models。然后展示figure4，稍微描述一下图里能看出什么，然后图下面是: The LHR price gap is NOT constant — it varies with market conditions:
+During mining boom (mid-2021): LHR cards sold 20%–37% below non-LHR
+After crypto crash (mid-2022): Gap narrowed to ~3%，最后得出结论：LHR only matters when mining is profitable.
+
+Slide16：标题：What about Mining  Economics? 副标题：Add LHR into comparison。展示figure6的右半部分（加入lhr对比），然后结论1：LHR variants exhibit a 40-50% higher cost per unit of mining power ($/MH)，黄色箭头，结论2：NVIDIA made mining using LHR models far less rewarding.
+
+Slide17：标题：Answers to Research Questions 内容：Do cryptocurrency price movements drive GPU secondary-market prices? 
+           Ans: Yes! And the connection is quite strong! 
+
+Which GPU hardware attributes (VRAM, hash rate, LHR) explain the magnitude of price premiums over MSRP?
+           Ans: Actually it’s the $/MH, which represent the cost-effectiveness of the graphic cards.
+
+Do different GPU tiers (XX60 entry-level to XX90 flagship) exhibit different price volatility?
+           Ans: Not actually.  All four tiers exhibit nearly identical month-over-month price volatility.
+
+Did LHR technology actually reduce miners' willingness to pay? How persistent was the effect?
+           Ans: Yes! And quite successfully.
+
+Slide18：标题：Limitations 内容：Limited to 10 GPU models across 24 months of observation
+eBay as sole resale channel; LHR prices use midpoint assumptions
+External confounders: pandemic, chip shortage, scalper activity
+
+Slide19：标题：possible future works 内容：Take the LHR unlock events (2022) into consideration, which provides a natural experiment for difference-in-differences design
+To have multi-country comparison: US eBay vs European vs Asian second-hand platforms
+Consider other external factors including pandemic, chip shortage, scalper activity
+
+Slide20：标题：reference 内容：Data Sources:
+CoinGecko — Free cryptocurrency API
+Tom's Hardware — GPU Historical eBay Pricing series
+PCMag — eBay Terapeak analysis
+3D Center — GPU price index
+Pictures References:
+A Further Step to Getting GeForce Cards into the Hands of Gamers:   
+https://blogs.nvidia.com/blog/lhr/
+AI Usage:
+Using Deepseek V4 Pro Max via Claude Code
+
+Slide21：标题：Thank you

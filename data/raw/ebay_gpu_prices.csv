@@ -1,0 +1,191 @@
+date,model,tier,ebay_avg_price_usd,data_source,lhr
+2020-10-01,RTX 3080,XX80,1300.0,Tom's Hardware / PCMag / 3D Center,0
+2020-10-01,RTX 3090,XX90,2100.0,Tom's Hardware / PCMag / 3D Center,0
+2020-11-01,RTX 3070,XX70,805.0,Tom's Hardware / PCMag / 3D Center,0
+2020-11-01,RTX 3080,XX80,1250.0,Tom's Hardware / PCMag / 3D Center,0
+2020-11-01,RTX 3090,XX90,2050.0,Tom's Hardware / PCMag / 3D Center,0
+2020-12-01,RTX 3070,XX70,819.0,Tom's Hardware / PCMag / 3D Center,0
+2020-12-01,RTX 3080,XX80,1227.0,Tom's Hardware / PCMag / 3D Center,0
+2020-12-01,RTX 3090,XX90,2076.0,Tom's Hardware / PCMag / 3D Center,0
+2021-01-01,RTX 3060 Ti,XX60,690.0,Tom's Hardware / PCMag / 3D Center,0
+2021-01-01,RTX 3070,XX70,804.0,Tom's Hardware / PCMag / 3D Center,0
+2021-01-01,RTX 3080,XX80,1290.0,Tom's Hardware / PCMag / 3D Center,0
+2021-01-01,RTX 3090,XX90,2087.0,Tom's Hardware / PCMag / 3D Center,0
+2021-02-01,RTX 3060 Ti,XX60,920.0,Tom's Hardware / PCMag / 3D Center,0
+2021-02-01,RTX 3070,XX70,940.0,Tom's Hardware / PCMag / 3D Center,0
+2021-02-01,RTX 3080,XX80,1593.0,Tom's Hardware / PCMag / 3D Center,0
+2021-02-01,RTX 3090,XX90,2379.0,Tom's Hardware / PCMag / 3D Center,0
+2021-03-01,RTX 3060,XX60,828.0,Tom's Hardware / PCMag / 3D Center,0
+2021-03-01,RTX 3060 Ti,XX60,1226.0,Tom's Hardware / PCMag / 3D Center,0
+2021-03-01,RTX 3070,XX70,1239.0,Tom's Hardware / PCMag / 3D Center,0
+2021-03-01,RTX 3080,XX80,2160.0,Tom's Hardware / PCMag / 3D Center,0
+2021-03-01,RTX 3090,XX90,2985.0,Tom's Hardware / PCMag / 3D Center,0
+2021-04-01,RTX 3060,XX60,865.0,Tom's Hardware / PCMag / 3D Center,0
+2021-04-01,RTX 3060 Ti,XX60,1240.0,Tom's Hardware / PCMag / 3D Center,0
+2021-04-01,RTX 3070,XX70,1270.0,Tom's Hardware / PCMag / 3D Center,0
+2021-04-01,RTX 3080,XX80,2280.0,Tom's Hardware / PCMag / 3D Center,0
+2021-04-01,RTX 3090,XX90,3100.0,Tom's Hardware / PCMag / 3D Center,0
+2021-05-01,RTX 3060,XX60,900.0,Tom's Hardware / PCMag / 3D Center,0
+2021-05-01,RTX 3060 Ti,XX60,1250.0,Tom's Hardware / PCMag / 3D Center,0
+2021-05-01,RTX 3060 Ti LHR,XX60,825.0,TechSpot / Tom's Hardware — range $700-$950 (midpoint used),1
+2021-05-01,RTX 3070,XX70,1300.0,Tom's Hardware / PCMag / 3D Center,0
+2021-05-01,RTX 3080,XX80,2400.0,Tom's Hardware / PCMag / 3D Center,0
+2021-05-01,RTX 3090,XX90,3200.0,Tom's Hardware / PCMag / 3D Center,0
+2021-06-01,RTX 3060,XX60,874.0,Tom's Hardware / PCMag / 3D Center,0
+2021-06-01,RTX 3060 Ti,XX60,1238.0,Tom's Hardware / PCMag / 3D Center,0
+2021-06-01,RTX 3060 Ti LHR,XX60,875.0,TechSpot / Tom's Hardware — range $750-$1000 (midpoint used),1
+2021-06-01,RTX 3070,XX70,1300.0,Tom's Hardware / PCMag / 3D Center,0
+2021-06-01,RTX 3070 LHR,XX70,1000.0,TechSpot / Tom's Hardware — range $850-$1150 (midpoint used),1
+2021-06-01,RTX 3080,XX80,1978.0,Tom's Hardware / PCMag / 3D Center,0
+2021-06-01,RTX 3080 LHR,XX80,1400.0,TechSpot / Tom's Hardware — range $1250-$1550 (midpoint used),1
+2021-06-01,RTX 3090,XX90,3002.0,Tom's Hardware / PCMag / 3D Center,0
+2021-07-01,RTX 3060,XX60,718.0,Tom's Hardware / PCMag / 3D Center,0
+2021-07-01,RTX 3060 Ti,XX60,981.0,Tom's Hardware / PCMag / 3D Center,0
+2021-07-01,RTX 3060 Ti LHR,XX60,925.0,TechSpot / Tom's Hardware — range $800-$1050 (midpoint used),1
+2021-07-01,RTX 3070,XX70,1063.0,Tom's Hardware / PCMag / 3D Center,0
+2021-07-01,RTX 3070 LHR,XX70,1025.0,TechSpot / Tom's Hardware — range $900-$1150 (midpoint used),1
+2021-07-01,RTX 3070 Ti,XX70,1096.0,Tom's Hardware / PCMag / 3D Center,0
+2021-07-01,RTX 3080,XX80,1636.0,Tom's Hardware / PCMag / 3D Center,0
+2021-07-01,RTX 3080 LHR,XX80,1475.0,TechSpot / Tom's Hardware — range $1350-$1600 (midpoint used),1
+2021-07-01,RTX 3080 Ti,XX80,1886.0,Tom's Hardware / PCMag / 3D Center,0
+2021-07-01,RTX 3090,XX90,2483.0,Tom's Hardware / PCMag / 3D Center,0
+2021-08-01,RTX 3060,XX60,723.0,Tom's Hardware / PCMag / 3D Center,0
+2021-08-01,RTX 3060 Ti,XX60,933.0,Tom's Hardware / PCMag / 3D Center,0
+2021-08-01,RTX 3060 Ti LHR,XX60,850.0,TechSpot / Tom's Hardware — range $850-$850 (midpoint used),1
+2021-08-01,RTX 3070,XX70,1205.0,Tom's Hardware / PCMag / 3D Center,0
+2021-08-01,RTX 3070 LHR,XX70,1000.0,TechSpot / Tom's Hardware — range $900-$1100 (midpoint used),1
+2021-08-01,RTX 3070 Ti,XX70,1141.0,Tom's Hardware / PCMag / 3D Center,0
+2021-08-01,RTX 3080,XX80,1708.0,Tom's Hardware / PCMag / 3D Center,0
+2021-08-01,RTX 3080 LHR,XX80,1475.0,TechSpot / Tom's Hardware — range $1400-$1550 (midpoint used),1
+2021-08-01,RTX 3080 Ti,XX80,1832.0,Tom's Hardware / PCMag / 3D Center,0
+2021-08-01,RTX 3090,XX90,2567.0,Tom's Hardware / PCMag / 3D Center,0
+2021-09-01,RTX 3060,XX60,736.0,Tom's Hardware / PCMag / 3D Center,0
+2021-09-01,RTX 3060 Ti,XX60,956.0,Tom's Hardware / PCMag / 3D Center,0
+2021-09-01,RTX 3060 Ti LHR,XX60,850.0,TechSpot / Tom's Hardware — range $750-$950 (midpoint used),1
+2021-09-01,RTX 3070,XX70,1208.0,Tom's Hardware / PCMag / 3D Center,0
+2021-09-01,RTX 3070 LHR,XX70,975.0,TechSpot / Tom's Hardware — range $850-$1100 (midpoint used),1
+2021-09-01,RTX 3070 Ti,XX70,1175.0,Tom's Hardware / PCMag / 3D Center,0
+2021-09-01,RTX 3080,XX80,1740.0,Tom's Hardware / PCMag / 3D Center,0
+2021-09-01,RTX 3080 LHR,XX80,1425.0,TechSpot / Tom's Hardware — range $1300-$1550 (midpoint used),1
+2021-09-01,RTX 3080 Ti,XX80,1885.0,Tom's Hardware / PCMag / 3D Center,0
+2021-09-01,RTX 3090,XX90,2750.0,Tom's Hardware / PCMag / 3D Center,0
+2021-10-01,RTX 3060,XX60,742.0,Tom's Hardware / PCMag / 3D Center,0
+2021-10-01,RTX 3060 Ti,XX60,968.0,Tom's Hardware / PCMag / 3D Center,0
+2021-10-01,RTX 3060 Ti LHR,XX60,800.0,TechSpot / Tom's Hardware — range $700-$900 (midpoint used),1
+2021-10-01,RTX 3070,XX70,1210.0,Tom's Hardware / PCMag / 3D Center,0
+2021-10-01,RTX 3070 LHR,XX70,935.0,TechSpot / Tom's Hardware — range $820-$1050 (midpoint used),1
+2021-10-01,RTX 3070 Ti,XX70,1190.0,Tom's Hardware / PCMag / 3D Center,0
+2021-10-01,RTX 3080,XX80,1755.0,Tom's Hardware / PCMag / 3D Center,0
+2021-10-01,RTX 3080 LHR,XX80,1375.0,TechSpot / Tom's Hardware — range $1250-$1500 (midpoint used),1
+2021-10-01,RTX 3080 Ti,XX80,1910.0,Tom's Hardware / PCMag / 3D Center,0
+2021-10-01,RTX 3090,XX90,2850.0,Tom's Hardware / PCMag / 3D Center,0
+2021-11-01,RTX 3060,XX60,749.0,Tom's Hardware / PCMag / 3D Center,0
+2021-11-01,RTX 3060 Ti,XX60,979.0,Tom's Hardware / PCMag / 3D Center,0
+2021-11-01,RTX 3060 Ti LHR,XX60,780.0,TechSpot / Tom's Hardware — range $680-$880 (midpoint used),1
+2021-11-01,RTX 3070,XX70,1210.0,Tom's Hardware / PCMag / 3D Center,0
+2021-11-01,RTX 3070 LHR,XX70,900.0,TechSpot / Tom's Hardware — range $800-$1000 (midpoint used),1
+2021-11-01,RTX 3070 Ti,XX70,1208.0,Tom's Hardware / PCMag / 3D Center,0
+2021-11-01,RTX 3080,XX80,1773.0,Tom's Hardware / PCMag / 3D Center,0
+2021-11-01,RTX 3080 LHR,XX80,1325.0,TechSpot / Tom's Hardware — range $1200-$1450 (midpoint used),1
+2021-11-01,RTX 3080 Ti,XX80,1941.0,Tom's Hardware / PCMag / 3D Center,0
+2021-11-01,RTX 3090,XX90,2947.0,Tom's Hardware / PCMag / 3D Center,0
+2021-12-01,RTX 3060,XX60,755.0,Tom's Hardware / PCMag / 3D Center,0
+2021-12-01,RTX 3060 Ti,XX60,993.0,Tom's Hardware / PCMag / 3D Center,0
+2021-12-01,RTX 3060 Ti LHR,XX60,775.0,TechSpot / Tom's Hardware — range $700-$850 (midpoint used),1
+2021-12-01,RTX 3070,XX70,1195.0,Tom's Hardware / PCMag / 3D Center,0
+2021-12-01,RTX 3070 LHR,XX70,900.0,TechSpot / Tom's Hardware — range $850-$950 (midpoint used),1
+2021-12-01,RTX 3070 Ti,XX70,1225.0,Tom's Hardware / PCMag / 3D Center,0
+2021-12-01,RTX 3080,XX80,1780.0,Tom's Hardware / PCMag / 3D Center,0
+2021-12-01,RTX 3080 LHR,XX80,1450.0,TechSpot / Tom's Hardware — range $1350-$1550 (midpoint used),1
+2021-12-01,RTX 3080 Ti,XX80,1965.0,Tom's Hardware / PCMag / 3D Center,0
+2021-12-01,RTX 3090,XX90,2930.0,Tom's Hardware / PCMag / 3D Center,0
+2022-01-01,RTX 3060,XX60,761.0,Tom's Hardware / PCMag / 3D Center,0
+2022-01-01,RTX 3060 Ti,XX60,1007.0,Tom's Hardware / PCMag / 3D Center,0
+2022-01-01,RTX 3060 Ti LHR,XX60,700.0,TechSpot / Tom's Hardware — range $600-$800 (midpoint used),1
+2022-01-01,RTX 3070,XX70,1179.0,Tom's Hardware / PCMag / 3D Center,0
+2022-01-01,RTX 3070 LHR,XX70,825.0,TechSpot / Tom's Hardware — range $700-$950 (midpoint used),1
+2022-01-01,RTX 3070 Ti,XX70,1244.0,Tom's Hardware / PCMag / 3D Center,0
+2022-01-01,RTX 3080,XX80,1783.0,Tom's Hardware / PCMag / 3D Center,0
+2022-01-01,RTX 3080 LHR,XX80,1125.0,TechSpot / Tom's Hardware — range $950-$1300 (midpoint used),1
+2022-01-01,RTX 3080 Ti,XX80,1992.0,Tom's Hardware / PCMag / 3D Center,0
+2022-01-01,RTX 3090,XX90,2918.0,Tom's Hardware / PCMag / 3D Center,0
+2022-02-01,RTX 3060,XX60,700.0,Tom's Hardware / PCMag / 3D Center,0
+2022-02-01,RTX 3060 Ti,XX60,930.0,Tom's Hardware / PCMag / 3D Center,0
+2022-02-01,RTX 3060 Ti LHR,XX60,650.0,TechSpot / Tom's Hardware — range $550-$750 (midpoint used),1
+2022-02-01,RTX 3070,XX70,1100.0,Tom's Hardware / PCMag / 3D Center,0
+2022-02-01,RTX 3070 LHR,XX70,775.0,TechSpot / Tom's Hardware — range $650-$900 (midpoint used),1
+2022-02-01,RTX 3070 Ti,XX70,1130.0,Tom's Hardware / PCMag / 3D Center,0
+2022-02-01,RTX 3080,XX80,1700.0,Tom's Hardware / PCMag / 3D Center,0
+2022-02-01,RTX 3080 LHR,XX80,1075.0,TechSpot / Tom's Hardware — range $900-$1250 (midpoint used),1
+2022-02-01,RTX 3080 Ti,XX80,1780.0,Tom's Hardware / PCMag / 3D Center,0
+2022-02-01,RTX 3090,XX90,2650.0,Tom's Hardware / PCMag / 3D Center,0
+2022-03-01,RTX 3060,XX60,600.0,Tom's Hardware / PCMag / 3D Center,0
+2022-03-01,RTX 3060 Ti,XX60,800.0,Tom's Hardware / PCMag / 3D Center,0
+2022-03-01,RTX 3060 Ti LHR,XX60,620.0,TechSpot / Tom's Hardware — range $520-$720 (midpoint used),1
+2022-03-01,RTX 3070,XX70,950.0,Tom's Hardware / PCMag / 3D Center,0
+2022-03-01,RTX 3070 LHR,XX70,725.0,TechSpot / Tom's Hardware — range $600-$850 (midpoint used),1
+2022-03-01,RTX 3070 Ti,XX70,900.0,Tom's Hardware / PCMag / 3D Center,0
+2022-03-01,RTX 3080,XX80,1500.0,Tom's Hardware / PCMag / 3D Center,0
+2022-03-01,RTX 3080 LHR,XX80,1000.0,TechSpot / Tom's Hardware — range $850-$1150 (midpoint used),1
+2022-03-01,RTX 3080 Ti,XX80,1450.0,Tom's Hardware / PCMag / 3D Center,0
+2022-03-01,RTX 3090,XX90,2200.0,Tom's Hardware / PCMag / 3D Center,0
+2022-04-01,RTX 3060,XX60,485.0,Tom's Hardware / PCMag / 3D Center,0
+2022-04-01,RTX 3060 Ti,XX60,658.0,Tom's Hardware / PCMag / 3D Center,0
+2022-04-01,RTX 3060 Ti LHR,XX60,550.0,TechSpot / Tom's Hardware — range $450-$650 (midpoint used),1
+2022-04-01,RTX 3070,XX70,773.0,Tom's Hardware / PCMag / 3D Center,0
+2022-04-01,RTX 3070 LHR,XX70,650.0,TechSpot / Tom's Hardware — range $500-$800 (midpoint used),1
+2022-04-01,RTX 3070 Ti,XX70,772.0,Tom's Hardware / PCMag / 3D Center,0
+2022-04-01,RTX 3080,XX80,1129.0,Tom's Hardware / PCMag / 3D Center,0
+2022-04-01,RTX 3080 LHR,XX80,850.0,TechSpot / Tom's Hardware — range $700-$1000 (midpoint used),1
+2022-04-01,RTX 3080 Ti,XX80,1168.0,Tom's Hardware / PCMag / 3D Center,0
+2022-04-01,RTX 3090,XX90,1837.0,Tom's Hardware / PCMag / 3D Center,0
+2022-05-01,RTX 3060,XX60,420.0,Tom's Hardware / PCMag / 3D Center,0
+2022-05-01,RTX 3060 Ti,XX60,550.0,Tom's Hardware / PCMag / 3D Center,0
+2022-05-01,RTX 3060 Ti LHR,XX60,490.0,TechSpot / Tom's Hardware — range $400-$580 (midpoint used),1
+2022-05-01,RTX 3070,XX70,650.0,Tom's Hardware / PCMag / 3D Center,0
+2022-05-01,RTX 3070 LHR,XX70,590.0,TechSpot / Tom's Hardware — range $480-$700 (midpoint used),1
+2022-05-01,RTX 3070 Ti,XX70,680.0,Tom's Hardware / PCMag / 3D Center,0
+2022-05-01,RTX 3080,XX80,950.0,Tom's Hardware / PCMag / 3D Center,0
+2022-05-01,RTX 3080 LHR,XX80,800.0,TechSpot / Tom's Hardware — range $650-$950 (midpoint used),1
+2022-05-01,RTX 3080 Ti,XX80,1050.0,Tom's Hardware / PCMag / 3D Center,0
+2022-05-01,RTX 3090,XX90,1500.0,Tom's Hardware / PCMag / 3D Center,0
+2022-06-01,RTX 3060,XX60,390.0,Tom's Hardware / PCMag / 3D Center,0
+2022-06-01,RTX 3060 Ti,XX60,480.0,Tom's Hardware / PCMag / 3D Center,0
+2022-06-01,RTX 3060 Ti LHR,XX60,450.0,TechSpot / Tom's Hardware — range $350-$550 (midpoint used),1
+2022-06-01,RTX 3070,XX70,550.0,Tom's Hardware / PCMag / 3D Center,0
+2022-06-01,RTX 3070 LHR,XX70,550.0,TechSpot / Tom's Hardware — range $450-$650 (midpoint used),1
+2022-06-01,RTX 3070 Ti,XX70,620.0,Tom's Hardware / PCMag / 3D Center,0
+2022-06-01,RTX 3080,XX80,780.0,Tom's Hardware / PCMag / 3D Center,0
+2022-06-01,RTX 3080 LHR,XX80,750.0,TechSpot / Tom's Hardware — range $600-$900 (midpoint used),1
+2022-06-01,RTX 3080 Ti,XX80,980.0,Tom's Hardware / PCMag / 3D Center,0
+2022-06-01,RTX 3090,XX90,1200.0,Tom's Hardware / PCMag / 3D Center,0
+2022-07-01,RTX 3060,XX60,365.0,Tom's Hardware / PCMag / 3D Center,0
+2022-07-01,RTX 3060 Ti,XX60,433.0,Tom's Hardware / PCMag / 3D Center,0
+2022-07-01,RTX 3060 Ti LHR,XX60,430.0,TechSpot / Tom's Hardware — range $340-$520 (midpoint used),1
+2022-07-01,RTX 3070,XX70,495.0,Tom's Hardware / PCMag / 3D Center,0
+2022-07-01,RTX 3070 LHR,XX70,490.0,TechSpot / Tom's Hardware — range $400-$580 (midpoint used),1
+2022-07-01,RTX 3070 Ti,XX70,587.0,Tom's Hardware / PCMag / 3D Center,0
+2022-07-01,RTX 3080,XX80,707.0,Tom's Hardware / PCMag / 3D Center,0
+2022-07-01,RTX 3080 LHR,XX80,675.0,TechSpot / Tom's Hardware — range $550-$800 (midpoint used),1
+2022-07-01,RTX 3080 Ti,XX80,921.0,Tom's Hardware / PCMag / 3D Center,0
+2022-07-01,RTX 3090,XX90,1043.0,Tom's Hardware / PCMag / 3D Center,0
+2022-08-01,RTX 3060,XX60,355.0,Tom's Hardware / PCMag / 3D Center,0
+2022-08-01,RTX 3060 Ti,XX60,420.0,Tom's Hardware / PCMag / 3D Center,0
+2022-08-01,RTX 3060 Ti LHR,XX60,410.0,TechSpot / Tom's Hardware — range $320-$500 (midpoint used),1
+2022-08-01,RTX 3070,XX70,480.0,Tom's Hardware / PCMag / 3D Center,0
+2022-08-01,RTX 3070 LHR,XX70,450.0,TechSpot / Tom's Hardware — range $350-$550 (midpoint used),1
+2022-08-01,RTX 3070 Ti,XX70,570.0,Tom's Hardware / PCMag / 3D Center,0
+2022-08-01,RTX 3080,XX80,690.0,Tom's Hardware / PCMag / 3D Center,0
+2022-08-01,RTX 3080 LHR,XX80,625.0,TechSpot / Tom's Hardware — range $500-$750 (midpoint used),1
+2022-08-01,RTX 3080 Ti,XX80,890.0,Tom's Hardware / PCMag / 3D Center,0
+2022-08-01,RTX 3090,XX90,1000.0,Tom's Hardware / PCMag / 3D Center,0
+2022-09-01,RTX 3060,XX60,348.0,Tom's Hardware / PCMag / 3D Center,0
+2022-09-01,RTX 3060 Ti,XX60,410.0,Tom's Hardware / PCMag / 3D Center,0
+2022-09-01,RTX 3060 Ti LHR,XX60,375.0,TechSpot / Tom's Hardware — range $300-$450 (midpoint used),1
+2022-09-01,RTX 3070,XX70,470.0,Tom's Hardware / PCMag / 3D Center,0
+2022-09-01,RTX 3070 LHR,XX70,420.0,TechSpot / Tom's Hardware — range $340-$500 (midpoint used),1
+2022-09-01,RTX 3070 Ti,XX70,555.0,Tom's Hardware / PCMag / 3D Center,0
+2022-09-01,RTX 3080,XX80,675.0,Tom's Hardware / PCMag / 3D Center,0
+2022-09-01,RTX 3080 LHR,XX80,600.0,TechSpot / Tom's Hardware — range $480-$720 (midpoint used),1
+2022-09-01,RTX 3080 Ti,XX80,865.0,Tom's Hardware / PCMag / 3D Center,0
+2022-09-01,RTX 3090,XX90,970.0,Tom's Hardware / PCMag / 3D Center,0
